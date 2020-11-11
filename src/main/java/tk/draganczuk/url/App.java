@@ -15,6 +15,7 @@ public class App {
 			staticFiles.location("/public");
 		}
 
+		ipAddress(System.getenv().getOrDefault("ip", "0.0.0.0"));
 		port(Integer.parseInt(System.getenv().getOrDefault("port", "4567")));
 
 		// Add GZIP compression

@@ -65,6 +65,8 @@ in order to speed up future builds.
 # Required for authentication
 export username=<api username>
 export password=<api password>
+export ip=<ipv4>
+export port=<port>
 # Sets where the database exists. Can be local or remote (optional)
 export db_url=<url> # Default: './urls.sqlite'
 ```
@@ -73,7 +75,6 @@ export db_url=<url> # Default: './urls.sqlite'
 ```
 java -jar build/libs/url.jar
 ```
-You can optionally set the port the server listens on by appending `--port=[port]`
 ### 4. Navigate to `http://localhost:4567` in your browser, add links as you wish.
 
 ## Running with docker

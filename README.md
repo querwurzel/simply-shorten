@@ -46,10 +46,7 @@ whatever reason), you can message me through Github issues or via email.
 ![Screenshot](./screenshot.png)
 
 # Usage
-Clone this repository
-```
-git clone https://gitlab.com/draganczukp/simply-shorten
-```
+
 ## Building from source
 Gradle 6.x.x and JDK 11 are required. Other versions are not tested
 ### 1. Build the `.jar` file
@@ -68,7 +65,7 @@ export password=<api password>
 export ip=<ipv4>
 export port=<port>
 # Sets where the database exists. Can be local or remote (optional)
-export db_url=<url> # Default: './urls.sqlite'
+export db_url=<url> # Default: '/urls.sqlite'
 ```
 
 ### 3. Run it
